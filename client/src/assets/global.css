@@ -1,0 +1,15 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: rgb(160, 186, 255);
+}
+
+/* text */
+.title {
+  text-align: center;
+  font-size: 2em;
+}
+
+/* END text END */
