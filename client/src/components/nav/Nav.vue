@@ -1,7 +1,7 @@
 <template>
   <ul class="nav">
     <li class="margin-left">
-      <router-link :to="{ name: 'Home' }">Home</router-link>
+      <router-link class="link-home" :to="{ name: 'Home' }">Home</router-link>
     </li>
     <li><router-link :to="{ name: 'About' }">About</router-link></li>
     <li><router-link :to="{ name: 'Contact' }">Contact</router-link></li>
@@ -36,9 +36,7 @@ a:hover {
   color: rgb(255, 255, 255);
   background: #1a2e64;
 }
-.margin-left {
-  margin-left: 1%;
-}
+
 .router-link-active {
   background: #1a2e64;
 }
